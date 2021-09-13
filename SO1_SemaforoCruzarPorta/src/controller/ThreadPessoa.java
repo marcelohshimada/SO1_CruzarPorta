@@ -34,10 +34,10 @@ public class ThreadPessoa extends Thread {
 	private void pessoaAndando() {
 		int distanciaFinal = 200;
 		int distanciaPercorrida = 0;
-		int deslocamento = (int) ((Math.random() * 3) + 4);
 		int tempo = 500;
 
 		while (distanciaPercorrida < distanciaFinal) {
+			int deslocamento = (int) ((Math.random() * 3) + 4);
 			distanciaPercorrida += deslocamento;
 
 			try {
